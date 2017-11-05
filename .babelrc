@@ -1,0 +1,12 @@
+{
+    "presets": [
+        ["es2015"],
+        ["env", { "modules": false }]
+    ],
+    "plugins": [
+        "syntax-dynamic-import",
+        "transform-vue-jsx",
+        "transform-decorators-legacy",
+        "transform-object-rest-spread"
+    ]
+}
